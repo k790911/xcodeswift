@@ -13,6 +13,7 @@
 		D767D9EC2767787000C4E9A4 /* KxMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D767D9EA2767787000C4E9A4 /* KxMemo.xcdatamodeld */; };
 		D767D9EE2767787100C4E9A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D767D9ED2767787100C4E9A4 /* Assets.xcassets */; };
 		D767D9F12767787100C4E9A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767D9EF2767787100C4E9A4 /* LaunchScreen.storyboard */; };
+		D77FD18C276A1BAD00277CAB /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77FD18B276A1BAD00277CAB /* MemoListTableViewController.swift */; };
 		D7C0AA8E2768CFC3003CC6F5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0AA8D2768CFC3003CC6F5 /* Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		D767D9ED2767787100C4E9A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D767D9F02767787100C4E9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D767D9F22767787100C4E9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77FD18B276A1BAD00277CAB /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		D7C0AA8D2768CFC3003CC6F5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 				D767D9E12767787000C4E9A4 /* AppDelegate.swift */,
 				D767D9E32767787000C4E9A4 /* SceneDelegate.swift */,
 				D767D9E72767787000C4E9A4 /* Main.storyboard */,
+				D77FD18B276A1BAD00277CAB /* MemoListTableViewController.swift */,
 				D767D9ED2767787100C4E9A4 /* Assets.xcassets */,
 				D767D9EF2767787100C4E9A4 /* LaunchScreen.storyboard */,
 				D767D9F22767787100C4E9A4 /* Info.plist */,
@@ -151,6 +154,7 @@
 			files = (
 				D767D9EC2767787000C4E9A4 /* KxMemo.xcdatamodeld in Sources */,
 				D767D9E22767787000C4E9A4 /* AppDelegate.swift in Sources */,
+				D77FD18C276A1BAD00277CAB /* MemoListTableViewController.swift in Sources */,
 				D767D9E42767787000C4E9A4 /* SceneDelegate.swift in Sources */,
 				D7C0AA8E2768CFC3003CC6F5 /* Model.swift in Sources */,
 			);
