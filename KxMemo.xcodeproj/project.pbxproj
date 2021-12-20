@@ -67,9 +67,9 @@
 				D767D9E32767787000C4E9A4 /* SceneDelegate.swift */,
 				D767D9E72767787000C4E9A4 /* Main.storyboard */,
 				D77FD18B276A1BAD00277CAB /* MemoListTableViewController.swift */,
+				D7ED56FE276E0C05005F7D61 /* ComposeViewController.swift */,
 				D767D9ED2767787100C4E9A4 /* Assets.xcassets */,
 				D767D9EF2767787100C4E9A4 /* LaunchScreen.storyboard */,
-				D7ED56FE276E0C05005F7D61 /* ComposeViewController.swift */,
 				D767D9F22767787100C4E9A4 /* Info.plist */,
 				D767D9EA2767787000C4E9A4 /* KxMemo.xcdatamodeld */,
 			);
