@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D73889792770A2CD008B68A7 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73889782770A2CD008B68A7 /* UIViewController+Alert.swift */; };
 		D767D9E22767787000C4E9A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767D9E12767787000C4E9A4 /* AppDelegate.swift */; };
 		D767D9E42767787000C4E9A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767D9E32767787000C4E9A4 /* SceneDelegate.swift */; };
 		D767D9E92767787000C4E9A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767D9E72767787000C4E9A4 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D73889782770A2CD008B68A7 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		D767D9DE2767787000C4E9A4 /* KxMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KxMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D767D9E12767787000C4E9A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D767D9E32767787000C4E9A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				D767D9E72767787000C4E9A4 /* Main.storyboard */,
 				D77FD18B276A1BAD00277CAB /* MemoListTableViewController.swift */,
 				D7ED56FE276E0C05005F7D61 /* ComposeViewController.swift */,
+				D73889782770A2CD008B68A7 /* UIViewController+Alert.swift */,
 				D767D9ED2767787100C4E9A4 /* Assets.xcassets */,
 				D767D9EF2767787100C4E9A4 /* LaunchScreen.storyboard */,
 				D767D9F22767787100C4E9A4 /* Info.plist */,
@@ -161,6 +164,7 @@
 				D7ED56FF276E0C05005F7D61 /* ComposeViewController.swift in Sources */,
 				D767D9E42767787000C4E9A4 /* SceneDelegate.swift in Sources */,
 				D7C0AA8E2768CFC3003CC6F5 /* Model.swift in Sources */,
+				D73889792770A2CD008B68A7 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
