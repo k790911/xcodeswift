@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="sYQ-EM-JAr" detailTextLabel="nMC-zM-XZW" style="IBUITableViewCellStyleSubtitle" id="yGM-WF-tZI">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="sYQ-EM-JAr" detailTextLabel="nMC-zM-XZW" style="IBUITableViewCellStyleSubtitle" id="yGM-WF-tZI">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="67.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yGM-WF-tZI" id="H6t-qK-IeV">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="67.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="385.5" height="67.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sYQ-EM-JAr">
@@ -40,6 +40,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Db4-A4-CFp" kind="show" id="gZs-1y-XBg"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -58,6 +61,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aNE-07-Nwj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="742" y="170"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="j7r-S0-pAF">
+            <objects>
+                <viewController id="Db4-A4-CFp" customClass="DetailViewController" customModule="KxMemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oCO-uX-3I7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cod-dt-W3W">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem title="Item" id="YeP-MD-yYD"/>
+                                </items>
+                            </toolbar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="1yQ-FJ-6nV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6tS-7X-lxY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1yQ-FJ-6nV" firstAttribute="leading" secondItem="6tS-7X-lxY" secondAttribute="leading" id="16F-SJ-6kD"/>
+                            <constraint firstItem="cod-dt-W3W" firstAttribute="trailing" secondItem="6tS-7X-lxY" secondAttribute="trailing" id="6sS-tq-pVX"/>
+                            <constraint firstItem="1yQ-FJ-6nV" firstAttribute="top" secondItem="oCO-uX-3I7" secondAttribute="top" id="72k-rv-1vK"/>
+                            <constraint firstItem="cod-dt-W3W" firstAttribute="top" secondItem="1yQ-FJ-6nV" secondAttribute="bottom" id="Cc9-Wl-a4V"/>
+                            <constraint firstItem="cod-dt-W3W" firstAttribute="leading" secondItem="6tS-7X-lxY" secondAttribute="leading" id="D6Q-rS-Moj"/>
+                            <constraint firstItem="1yQ-FJ-6nV" firstAttribute="trailing" secondItem="6tS-7X-lxY" secondAttribute="trailing" id="EQx-QM-Sjp"/>
+                            <constraint firstItem="cod-dt-W3W" firstAttribute="bottom" secondItem="6tS-7X-lxY" secondAttribute="bottom" id="NH4-Mc-sdd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="L93-6I-1te"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q9R-3C-zdX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1718.840579710145" y="490.84821428571428"/>
         </scene>
         <!--새 메모-->
         <scene sceneID="0FX-gT-Zh3">
