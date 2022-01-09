@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D73889792770A2CD008B68A7 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73889782770A2CD008B68A7 /* UIViewController+Alert.swift */; };
+		D745B39C278B06A800144EBB /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D745B39B278B06A800144EBB /* DataManager.swift */; };
 		D767D9E22767787000C4E9A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767D9E12767787000C4E9A4 /* AppDelegate.swift */; };
 		D767D9E42767787000C4E9A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767D9E32767787000C4E9A4 /* SceneDelegate.swift */; };
 		D767D9E92767787000C4E9A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767D9E72767787000C4E9A4 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		D73889782770A2CD008B68A7 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		D745B39B278B06A800144EBB /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		D767D9DE2767787000C4E9A4 /* KxMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KxMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D767D9E12767787000C4E9A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D767D9E32767787000C4E9A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D745B39A278B069200144EBB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D745B39B278B06A800144EBB /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		D767D9D52767787000C4E9A4 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		D767D9E02767787000C4E9A4 /* KxMemo */ = {
 			isa = PBXGroup;
 			children = (
+				D745B39A278B069200144EBB /* Data */,
 				D7C0AA8C2768CEA3003CC6F5 /* Model */,
 				D767D9E12767787000C4E9A4 /* AppDelegate.swift */,
 				D767D9E32767787000C4E9A4 /* SceneDelegate.swift */,
@@ -168,6 +179,7 @@
 				D767D9E42767787000C4E9A4 /* SceneDelegate.swift in Sources */,
 				D7C0AA8E2768CFC3003CC6F5 /* Model.swift in Sources */,
 				D73889792770A2CD008B68A7 /* UIViewController+Alert.swift in Sources */,
+				D745B39C278B06A800144EBB /* DataManager.swift in Sources */,
 				D7C87D7427735BE400A35114 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
